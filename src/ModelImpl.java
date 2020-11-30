@@ -16,4 +16,9 @@ public class ModelImpl extends UnicastRemoteObject implements Model{
     public boolean addCar(Car car) throws RemoteException {
         return false;
     }
+
+    @Override
+    public boolean addReceipt(Receipt receipt) {
+        return false;
+    }
 }
